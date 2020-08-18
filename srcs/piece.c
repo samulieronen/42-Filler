@@ -6,11 +6,11 @@
 /*   By: seronen <seronen@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/08/05 13:49:53 by seronen           #+#    #+#             */
-/*   Updated: 2020/08/17 19:36:26 by seronen          ###   ########.fr       */
+/*   Updated: 2020/08/18 16:21:07 by seronen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/filler.h"
+#include "filler.h"
 
 static int			get_origo(t_filler *node)
 {

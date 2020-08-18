@@ -6,11 +6,11 @@
 /*   By: seronen <seronen@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/05 23:47:00 by samulierone       #+#    #+#             */
-/*   Updated: 2020/08/18 14:57:40 by seronen          ###   ########.fr       */
+/*   Updated: 2020/08/18 16:20:47 by seronen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/filler.h"
+#include "filler.h"
 
 static int			player_info(t_filler *node)
 {

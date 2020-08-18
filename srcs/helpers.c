@@ -6,11 +6,11 @@
 /*   By: seronen <seronen@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/04 13:55:58 by seronen           #+#    #+#             */
-/*   Updated: 2020/08/18 14:58:30 by seronen          ###   ########.fr       */
+/*   Updated: 2020/08/18 16:20:37 by seronen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/filler.h"
+#include "filler.h"
 
 int				count_stars(char **s)
 {

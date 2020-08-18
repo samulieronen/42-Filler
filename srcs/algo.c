@@ -6,11 +6,11 @@
 /*   By: seronen <seronen@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/08/18 02:12:23 by seronen           #+#    #+#             */
-/*   Updated: 2020/08/18 14:08:59 by seronen          ###   ########.fr       */
+/*   Updated: 2020/08/18 16:20:30 by seronen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/filler.h"
+#include "filler.h"
 
 int			get_targets(t_filler *node)
 {

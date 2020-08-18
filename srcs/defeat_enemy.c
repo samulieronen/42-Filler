@@ -6,11 +6,11 @@
 /*   By: seronen <seronen@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/04 15:05:39 by seronen           #+#    #+#             */
-/*   Updated: 2020/08/18 14:59:46 by seronen          ###   ########.fr       */
+/*   Updated: 2020/08/18 16:20:54 by seronen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/filler.h"
+#include "filler.h"
 
 int			check_eloc(char **s, int y, int x, t_filler *node)
 {

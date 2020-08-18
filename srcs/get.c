@@ -6,11 +6,11 @@
 /*   By: seronen <seronen@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/09 14:07:41 by seronen           #+#    #+#             */
-/*   Updated: 2020/08/17 23:28:15 by seronen          ###   ########.fr       */
+/*   Updated: 2020/08/18 16:20:42 by seronen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/filler.h"
+#include "filler.h"
 
 static int		get_sizes(char *str, int *x, int *y)
 {
