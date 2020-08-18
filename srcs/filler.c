@@ -6,7 +6,7 @@
 /*   By: seronen <seronen@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/05 23:47:00 by samulierone       #+#    #+#             */
-/*   Updated: 2020/08/18 16:20:47 by seronen          ###   ########.fr       */
+/*   Updated: 2020/08/18 16:23:28 by seronen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,8 @@ void				free_all(t_filler *node)
 	ft_printf("%d %d\n", 0, 0);
 	if (node->piece->crd)
 		free_coord(&node->piece->crd);
+	if (node->eloc)
+		free_coord(&node->eloc);
 	if (node->loc)
 		free_coord(&node->loc);
 	if (node->brd->brd)
