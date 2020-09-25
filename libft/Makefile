@@ -6,7 +6,7 @@
 #    By: seronen <seronen@student.hive.fi>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/01/21 12:12:13 by seronen           #+#    #+#              #
-#    Updated: 2020/08/14 23:56:47 by seronen          ###   ########.fr        #
+#    Updated: 2020/09/25 17:22:43 by seronen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,14 +45,14 @@ ft_2dstrdel.o ft_abs.o
 all: $(NAME)
 
 $(NAME):
-	 gcc -c $(SRC) -Wall -Wextra -Werror -I $(INCLUDES) 
-	 ar rc $(NAME) $(OBJ)
-	 ranlib $(NAME)
+	@gcc -c $(SRC) -Wall -Wextra -Werror -I $(INCLUDES) 
+	@ar rc $(NAME) $(OBJ)
+	@ranlib $(NAME)
 
 clean:
-	 /bin/rm -f $(OBJ)
+	@/bin/rm -f $(OBJ)
 
 fclean: clean
-		/bin/rm -f $(NAME)
+	@/bin/rm -f $(NAME)
 
 re: fclean all
